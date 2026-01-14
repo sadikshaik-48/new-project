@@ -1,0 +1,3 @@
+HTML - Stands for Hyper Text Markup Language
+Used to create web pages without any type styling
+Present version HTML5
