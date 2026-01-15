@@ -1,0 +1,5 @@
+HTML is markup language.
+It is use for creating the web pages and give the basic web page structure without ant stylling.
+It was invented by "Tim Berners - Lee" in the year of 1991.
+It's all based on using of tags through which pages are created.
+currently we are using the latest version of HTML5.
