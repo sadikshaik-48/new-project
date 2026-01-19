@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FORM - TAGS</title> 
+</head>
+<body>
+  <form action="/submit.php">
+    <h1>Forms in HTML</h1>
+    <div>
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter Your Name" />
+    </div>
+    <div>
+      <label for="ph">Phone No</label>
+      <input id="ph" type="tel" placeholder="Enter Phone Number" />
+    </div>
+    <div>
+      <label for="mail">E-mail</label>
+      <input id="mail" type="email" placeholder="Enter Your E-mail" required />
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="********" required />
+    </div>
+    <div>
+      <label for="dob">Date of Birth</label>
+      <input id="dob" type="date" required />
+    </div>
+    <div>
+      <label for="gender">Select Gender</label>
+      <select id="gender" required>
+        <option value="" disabled selected>Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+      </select>
+    </div>
+    <div>
+      <p>Financial Status</p>
+      <label for="poor">Poor</label>
+      <input id="poor" type="radio" name="sadik" value="poor" /><br>
+
+      <label for="middle class">Middle Class</label>
+      <input id="middle class" type="radio" name="sadik" value="middle class" /><br>
+
+      <label for="rich">Rich</label>
+      <input id="rich" type="radio" name="sadik" value="rich" /><br>
+    </div>
+    <div>
+      <label for="rules">I agree to the terms and conditions</label>
+      <input id="rules" type="checkbox" required />
+    </div>
+    <div>
+      <label for="comments">Comments</label>
+      <textarea id="comments" placeholder="Comments Section" rows="3"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
